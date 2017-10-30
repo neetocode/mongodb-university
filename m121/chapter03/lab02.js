@@ -37,6 +37,12 @@ var pipeline = [
     },
     {
         $limit: 1
+    },
+    {
+        $project: {
+            average: { $divide: [{ $trunc: { $multiply: ['$average', 10] } }, 10] },
+            numFilms: 1
+        }
     }
 
 ]
