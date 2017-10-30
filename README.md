@@ -1,5 +1,5 @@
 # mongodb-university
-Answers of the courses that I realized in mongodb university. Do not copy, do it yourself ;)
+Lab scripts of the courses that i realized in mongodb university. Do not copy, do it yourself ;)
 
 Look course here -> https://university.mongodb.com/courses/catalog
 
