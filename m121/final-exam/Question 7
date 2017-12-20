@@ -1,0 +1,15 @@
+Using the air_alliances and air_routes collections, find which alliance has the most unique carriers(airlines) operating between the airports JFK and LHR.
+
+Names are distinct, i.e. Delta != Delta Air Lines
+
+src_airport and dst_airport contain the originating and terminating airport information.
+
+Choose the best answer:
+
+1. OneWorld, with 4 carriers
+2. Star Alliance, with 6 carriers
+3. OneWorld, with 8 carriers
+4. SkyTeam, with 4 carriers
+
+Answer is : 
+1. OneWorld, with 4 carriers
