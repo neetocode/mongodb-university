@@ -3,12 +3,10 @@
 var pipeline = [
     {
         $match: {
-            $and: [
-                { src_airport: 'JFK' }, { dst_airport: 'LHR' }
+           $and: [
+                { src_airport: { $in: ["JFK", "LHR"] } },
+                { dst_airport: { $in: ["JFK", "LHR"] } },
             ],
-            $and: [
-                { src_airport: 'LHR' }, { dst_airport: 'JFK' }
-            ]
         }
     },
     {
