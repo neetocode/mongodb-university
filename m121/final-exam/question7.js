@@ -20,6 +20,9 @@ var pipeline = [
         }
     },
     {
+      $match: { alliance: { $ne: [] } },
+    },
+    {
         $group: {
             _id: '$alliance.name',
             sum: { $sum: 1 }
